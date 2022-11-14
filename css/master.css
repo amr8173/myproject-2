@@ -1,0 +1,175 @@
+/*start global*/
+*{margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:: border-box;
+  box-sizing: border-box;}
+/*end global*/
+/*start header*/
+.main{background-color: #333;
+        color: #ddd;
+    padding: 20px;
+    text-align: center;}
+
+h1{font-size: 45px;}    
+
+ /*end header*/ 
+ /*start nav*/
+    nav{background-color: #ddd}
+    nav ul{
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            
+            
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li:last-child:after{
+        content: ""
+    }
+    nav ul li:after{content:"|";}
+
+    nav ul li mark{background-color: brown;
+                    color: blue;}
+ /*end nav*/
+ /*start main*/
+    main{padding: 20px;
+        background-color: #eee;
+    
+    }
+   
+    main p{text-align: center;
+        font-size: 40px;}
+
+    main span{font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 50px;
+            }
+ /*end main*/
+ /*start post*/
+ .post{width: 70%;
+    float: left;
+ }
+/*end post*/
+/*start article*/
+article{
+    background-color: #f6f6f6;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+.post article header{
+    background-color: #e2e2e2;
+    padding: 10px;
+}
+.ref{padding: 10px;}
+ .longlink{
+            width: 200px;
+            color: brown;
+            padding:10px; }
+            .figure{padding: 10px;
+            margin-bottom: 10px;}
+           .img{border: 1px solid  cornflowerblue;
+                padding: 25px;
+    
+                }
+
+          .vidio{
+              width: 800px;
+              height: 300px;
+            
+              font-size: 30px;
+          }  
+          .post article section .html5{
+            background-color:#CCC;
+            height::200px;}
+            .post article section.amr{background:#099;}
+            .post article section .amr input{
+                display:block;
+                margin: 10px;}
+        .post article section .html5 input{
+            background-color:aliceblue;
+            font-size: 20px;
+            display:block;
+            margin-bottom:10px;
+            }
+        
+            
+            table,th,td{
+                border: 2px solid red;
+                border-collapse: collapse;
+                texr-align:center;
+                
+            }
+            th{
+                font-size:20px;
+                width: 300px;
+            }
+            td{
+                text-align: center;
+            
+            }
+            table h3{text-align: center;}
+
+            
+      
+    
+/*end article*/
+
+
+/*start saidbar*/
+aside{
+    width: 30%;
+    float: right;
+}
+ul{list-style: none;}
+
+aside section{
+        background-color: #eee;
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+}
+aside section h1{background-color: #ccc;
+                padding: 10px;
+                margin-bottom: 10px;}
+
+ aside section ul{
+                    margin-top: 10px;
+                    font-size: 40px;
+ }   
+ aside section ul li{
+                            line-height: 1.1;
+ }    
+.port h3{text-align: center;
+        padding: 15px;
+        font-size: 30px;}
+.port img{width: 44%;
+    padding: 10px; 
+    background-color:  #eee;
+    height: 200px;
+    margin-bottom: 10px;
+    }
+
+  .contact{text-align: center;
+            padding: 10px;
+        background-color:  #eee;
+    font-size: 30px;}  
+/*end saidbar*/
+.clearfix{
+        clear:both;
+}
+ 
+/*start footer*/
+footer{background-color: #333;
+    color: #ddd;
+padding: 20px;
+text-align: center;}
+
+article section{
+    padding: 10px;
+}
+
+/*end footer*/
